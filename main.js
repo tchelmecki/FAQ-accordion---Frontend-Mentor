@@ -6,9 +6,9 @@ resize.forEach((faq, index) =>{
         faq.classList.toggle('active');
         const isActive = faq.classList.contains('active');
         if (isActive) {
-            image[index].src = '/assets/images/icon-minus.svg'; // Nowe źródło obrazu po kliknięciu
+            image[index].src = 'assets/images/icon-minus.svg'; // Nowe źródło obrazu po kliknięciu
         } else {
-            image[index].src = '/assets/images/icon-plus.svg'; // Źródło obrazu przed kliknięciem
+            image[index].src = 'assets/images/icon-plus.svg'; // Źródło obrazu przed kliknięciem
         }
     })
 })
