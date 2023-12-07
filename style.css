@@ -102,6 +102,27 @@ body{
     color: hsl(228, 45%, 44%);
  }
 
+@media (max-width: 500px){
+    .faqs{
+        width: 350px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .title img{
+        width: 38px;
+    }
+    .text{
+        font-size: 11px;
+    }
+    .attribution{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+    }
+ }
+
 @media (max-width: 415px){
     .faqs{
         width: 350px;
